@@ -1,5 +1,6 @@
-var userNames = ["Abdullah", "Faiz", "Admin", "Samad", "Anas"];
-userNames.forEach(function (e) {
+"use strict";
+let userNames = ["Abdullah", "Faiz", "Admin", "Samad", "Anas"];
+userNames.forEach(e => {
     if (e == "Admin") {
         console.log("Hello Admin, would you like to see the status report?");
     }
